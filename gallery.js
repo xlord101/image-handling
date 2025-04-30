@@ -1,8 +1,6 @@
 $(document).ready(function() {
-    // Show all images on initial load
-    $('.gallery-img').fadeIn();
 
-    // Filter button click
+    $('.gallery-img').fadeIn();
     $('.filter-btn').click(function() {
         const filter = $(this).data('filter');
 
